@@ -1,0 +1,32 @@
+:root {
+    --color-de-fondo: #191919;
+    --color-de-texto: white;
+    --color-gris: #262626;
+}
+
+
+.imput__container {
+    margin: 0;
+    
+}
+
+.imput__name {
+    display: block;
+    text-align: start;
+    color: var(--color-de-texto);
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.938rem;
+}
+
+.imput {
+    width: 35.8rem;
+    background-color: transparent;
+    padding: 1rem;
+    border:3px solid#262626;
+    border-radius: 0.833rem;
+    font-size: 1rem;
+    color:var(--color-de-texto);
+    background-color: transparent;
+    box-sizing: border-box;
+}

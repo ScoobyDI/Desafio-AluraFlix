@@ -1,0 +1,27 @@
+:root {
+    --color-fondo--gris: #262626;
+    --color-azul: #2271D1;
+}
+
+.header {
+    background-color: var(--color-fondo--gris);
+    height: 5.8rem;
+    padding: 2rem;
+}
+
+.header__contenedor {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 10.5rem;
+    height: 2.5rem;
+}
+
+.header__contenedor__botones {
+    display: flex;
+    gap: 1.56rem;
+}
