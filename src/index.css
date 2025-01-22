@@ -1,10 +1,15 @@
-body {
-  margin: 0;
-  font-family: "Source Sans 3", serif;
-  /* font-family: "Roboto", serif; */
+:root {
+  --font-SourceSan: "Source Sans 3", serif;
+  --font-Roboto: "Roboto", serif;
+
+  --color-Azul: #2271d1;
+  --color-blanco: #fff;
+  --color-grisOscuro: #191919;
+  --color-grisClaro: #262626;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  margin: 0;
+  font-family: var(--font-SourceSan)
 }
