@@ -1,20 +1,27 @@
 
-import "./Header.modules.css";
+import { Link } from "react-router-dom";
+import styles from "./Header.module.css";
 import logo from "../../assets/logo.png";
 import Button from "../Button/Button";
 
 function Header() {
   return (
-    <header className="header">
-      <nav className="header__contenedor">
-        <img className="header__logo" src={logo} alt="AluraFlix Logo" />
-          <div className="header__contenedor__botones">
-            <Button>Home</Button>
-            <Button>Nuevo Video</Button>
+    <header className={styles.header}>
+        <nav className={styles.header__contenedor}>
+          <img className={styles.header__logo} src={logo} alt="AluraFlix Logo" />
+          <div className={styles.header__contenedor__botones}>
+            <Link to="/">
+              <Button>Home</Button>
+            </Link>
+            <Link to="/nuevo-video">
+              <Button>Nuevo Video</Button>
+            </Link>
           </div>
-      </nav>
+        </nav>
     </header>
   )
 }
 
 export default Header
+
+//Link to sirve para que con ayuda del archivo routes.js me redireccione a donde quiera

@@ -1,11 +1,13 @@
-const { BrowserRouter, Routes, Route } = require("react-router-dom");
-const { default: Inicio } = require("./pages/Inicio/Inicio.jsx");
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Inicio from "./pages/Inicio/Inicio";
+import NuevoVideo from "pages/NuevoVideo/NuevoVideo";
 
 function AppRoutes() {
     return(
         <BrowserRouter> 
             <Routes>
-                <Route path="/" element={<Inicio/>}></Route>
+                <Route path="/" element={<Inicio/>}/>
+                <Route path="/nuevo-video" element={<NuevoVideo />} />
             </Routes>
         </BrowserRouter>
     )
