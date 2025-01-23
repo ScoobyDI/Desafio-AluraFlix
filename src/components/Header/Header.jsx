@@ -1,5 +1,5 @@
 
-import "./Header.css";
+import "./Header.modules.css";
 import logo from "../../assets/logo.png";
 import Button from "../Button/Button";
 

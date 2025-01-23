@@ -1,11 +1,7 @@
-:root {
-    --color-fondo--gris: #262626;
-    --color-azul: #2271D1;
-}
 
 .header {
-    background-color: var(--color-fondo--gris);
-    height: 5.8rem;
+    background-color: var(--color-grisOscuro);
+    height: 3.8rem;
     padding: 2rem;
 }
 
