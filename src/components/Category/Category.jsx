@@ -1,5 +1,4 @@
 
-
 const Category = () => {
   return (
     <div className="categoria__Contenedor">

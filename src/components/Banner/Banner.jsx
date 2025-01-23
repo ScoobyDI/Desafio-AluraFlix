@@ -1,11 +1,12 @@
-import "./Banner.css"
+import styles from "./Banner.module.css"
 import banner from "../../assets/banner.png"
+import imgPrueba from "../../assets/imgPrueba.png"
 
 function Banner() {
     return (
-        <section className="banner__contenedor">
-            <img className="banner__img" src={banner} alt="banner.png" />
-            <div className="banner__contenido">
+        <section className={styles.banner__contenedor}>
+            <img className={styles.banner__img} src={banner} alt="banner.png" />
+            <div className={styles.banner__contenido}>
                 <div>
                     <h2>
                         FRONT END
@@ -15,7 +16,7 @@ function Banner() {
                         resolución de un problema para poder aplicar todos 
                         los conocimientos adquiridos en la formación React.</p>
                 </div>
-                <img className="banner__imagen-superpuesta"  src="" alt="" />
+                <img className={styles.banner__imagen__superpuesta}  src={imgPrueba} alt="" />
             </div>
         </section>
     )

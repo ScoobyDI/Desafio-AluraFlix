@@ -3,6 +3,7 @@
     background-color: var(--color-grisOscuro);
     height: 3.8rem;
     padding: 2rem;
+    border-bottom: 1px solid #2271d1;
 }
 
 .header__contenedor {
